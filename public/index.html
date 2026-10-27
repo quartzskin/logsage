@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>logsage</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <h1>logsage</h1>
+  <span id="status"></span>
+</header>
+<main>
+  <section id="input">
+    <label>Log name <input id="name" value="pasted log"></label>
+    <input type="file" id="file">
+    <textarea id="text" placeholder="Paste wevtutil XML, Get-WinEvent JSON lines, or auth.log text"></textarea>
+    <label><input type="checkbox" id="useModel" checked> use model if configured</label>
+    <button id="go">Analyze</button>
+    <h2>Stored reports</h2>
+    <ul id="reports"></ul>
+  </section>
+  <section id="report" hidden>
+    <div class="bar"><span id="meta"></span> <a id="export" href="#">Markdown</a></div>
+    <h2>Raw facts</h2><div id="facts"></div>
+    <h2>Interpretation</h2><div id="interp"></div>
+    <h2>Confidence</h2><div id="conf"></div>
+    <h2>Unknowns</h2><ul id="unknowns"></ul>
+    <h2>Ask about this evidence</h2>
+    <form id="askForm"><input id="q" placeholder="e.g. which IPs failed to log in?" maxlength="500"><button>Ask</button></form>
+    <div id="answers"></div>
+  </section>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
