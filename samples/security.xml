@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Events>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2024-03-12T08:01:12.100Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">WS-FIN-07$</Data>
+      <Data Name="TargetUserName">mreyes</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="WorkstationName">WS-FIN-07</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:14:02.331Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="WorkstationName">KALI</Data>
+      <Data Name="IpAddress">203.0.113.45</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:14:04.002Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="TargetUserName">admin</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="WorkstationName">KALI</Data>
+      <Data Name="IpAddress">203.0.113.45</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:14:05.871Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="TargetUserName">jsmith</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="WorkstationName">KALI</Data>
+      <Data Name="IpAddress">203.0.113.45</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:14:07.440Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="TargetUserName">jsmith</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="WorkstationName">KALI</Data>
+      <Data Name="IpAddress">203.0.113.45</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4625</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:14:09.015Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="TargetUserName">jsmith</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="WorkstationName">KALI</Data>
+      <Data Name="IpAddress">203.0.113.45</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4624</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:14:31.220Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">WS-FIN-07$</Data>
+      <Data Name="TargetUserName">jsmith</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">203.0.113.45</Data>
+      <Data Name="WorkstationName">KALI</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4672</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:14:31.230Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">jsmith</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+      <Data Name="PrivilegeList">SeDebugPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>7045</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:20:44.900Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="ServiceName">WinUpdateSvc</Data>
+      <Data Name="ImagePath">C:\Users\Public\upd.exe -k netsvcs</Data>
+      <Data Name="ServiceType">user mode service</Data>
+      <Data Name="StartType">auto start</Data>
+      <Data Name="AccountName">LocalSystem</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4672</EventID>
+      <TimeCreated SystemTime="2024-03-12T10:00:03.000Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="SubjectUserName">SYSTEM</Data>
+      <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+      <Data Name="PrivilegeList">SeTcbPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}"/>
+      <EventID>4720</EventID>
+      <TimeCreated SystemTime="2024-03-12T09:22:10.000Z"/>
+      <Computer>WS-FIN-07.corp.example</Computer>
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">svc_backup2</Data>
+      <Data Name="SubjectUserName">jsmith</Data>
+    </EventData>
+  </Event>
+</Events>

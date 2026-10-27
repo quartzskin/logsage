@@ -1,0 +1,17 @@
+{
+  "name": "logsage",
+  "version": "0.1.0",
+  "description": "Explain Windows event logs and auth.log with a local model or plain rules",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "logsage": "bin/logsage.js"
+  },
+  "scripts": {
+    "start": "node bin/logsage.js serve",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
